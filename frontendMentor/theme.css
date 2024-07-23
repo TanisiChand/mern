@@ -1,0 +1,71 @@
+.btn{
+    background: transparent;
+    border:none;
+    font-family: "barlow", sans-serif;
+    border-radius: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    max-width: fit-content;
+    &.primary{
+        background: var(--secondary-color);
+        color:white;
+        font-size: 12px;
+        text-align:center;
+    }
+    
+    &.secondary{
+        background: rgb(17, 17, 17);
+        color:white;
+        font-size: 12px;
+        text-align:center;
+    }
+
+    &.outline{
+        border:1px solid black;
+        color:black;
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text-md{
+    font-size: 1.2rem;
+}
+
+.text-lg{
+    font-size: 1.44rem;
+}
+
+.text-lg{
+    font-size: 1.728rem;
+}
+
+.text-xl{
+    font-size: 2.074rem;
+}
+
+.text-2xl{
+    font-size: 2.488rem;
+}
+
+.text-2xl{
+    font-size: 2.986rem;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-center{
+    text-align: center;
+}
